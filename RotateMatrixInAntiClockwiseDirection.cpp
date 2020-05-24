@@ -22,8 +22,12 @@ int main()
     for(int i = 0; i<n; i++)
         for(int j = 0; j<n; j++)
             std::cin>>arr[i][j];
+
+    // reverse each row using stl
+    // for(int i = 0; i<n; i++)
+    //     std::reverse(arr[i], arr[i]+n);
     
-    // reverse each row
+    // reverse each row without using stl
     for(int row = 0; row<n; row++)
     {
         int start_col = 0;
